@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, ul, li, p {
+	margin: 0;
+	padding: 0;
+}
+header,header,article,aside,footer,video,audio{display:block;}
+ul {
+	list-style: none;
+	
+}
+body{ font-family:Arial;}
+a {text-decoration: none;}
+img, input {border: none;}
+.clear{clear:both;}
+header,section.three.four.five.six.seven.eight-box{display: block;}
+html,body{height:100%;}
+@font-face{font-family:ziti; src: url(font-awesome.min.css);}
+header{width:100%; background:url(../images/oshin-slide-1.jpg) no-repeat center top; height:100%;}
+header .logo{float:left; width:119px; height:50px; padding:25px 0 0 2%;}
+header nav{width:860px; position:absolute; top:0; left:50%; margin-left:-430px;}
+header nav ul{float:left;}
+header ul li{float:left; line-height:99px; padding:0 21px;}
+header ul li .ho{color:#FF4F00;}
+header ul li a{font-size:12px; color:#000000; text-transform:uppercase; font-weight:bold;}
+header .icon{float:right;padding:25px 2% 0 0;}
+header .run{width:365px; height:306px; text-align:center;
+position:absolute;
+top:0;
+right:0;
+right:0;
+bottom:0;
+left:0;
+margin:auto;
+}
+.run p{height:80px; line-height:80px; word-spacing:10px; letter-spacing:5px;}
+p:nth-of-type(2){ word-spacing:0; letter-spacing:0;}
+.run h2{width:352px; height:102px; border:7px solid #000000;word-spacing:10px; line-height:102px;}
+section{width:100%; text-align: center; }
+section h2{padding-top: 53px;line-height:117px;}
+section  span{margin-bottom: 43px;}
+section .icon {height: 105px; line-height: 105px;}
+section .icon a{width: 11px;height: 12px; background-color:#e0a240; display: inline-block;transform:rotate(45deg);}
+section .icon a:before{content:'';width: 20px; height: 1px;position: absolute;transform:rotate(-45deg);background-color:#000000; top:-15px; left:18px;}
+section .icon a:after {content:'';width: 20px; height: 1px;position: absolute;transform:rotate(-45deg);background-color:#000000; top:30px; left:-29px;}
+section>p {padding-bottom: 111px; line-height: 34px;}
+section .pic ul li{float:left; width:25%; background-color:#f2f5f8; height:247px;}
+section .pic ul li:nth-child(2n){background-color:#edf0f2;}
+section .pic ul  li a{padding-top: 60px; display:block; transition:padding-top 1s; }
+section .pic ul  li a:hover{padding-top: 0;}
+.two{width:1200px; margin:0 auto; height:875px; padding-bottom: 100px;}
+.two .text-left{width:382px; float:left;  margin-top: 120px;}
+.two .text-left .tilet {text-align: left;}
+.two .text-left  ul{height: 197px;}
+.two .text-left .tilet span{font-weight: bold;}
+.two .text-left .tilet i{ padding: 0 35px 0 35px;}
+.two .text-left  p{padding-left: 84px; padding-top: 28px;}
+.two .pic{width:426px; float:left; text-align:center;height:875px; line-height:875px; margin-top: 120px;}
+.two .pic img{ max-width:300px;width: 100%;height: auto;}
+.text-fle{width:382px; float:left;width:382px; float:left; margin-top: 120px;}
+.text-fle ul{height: 197px;}
+.two .text-fle .tilet {text-align: left;}
+.two .text-fle .tilet i{ padding: 0 35px 0 35px;}
+.two .text-fle  p{padding-left: 84px; padding-top: 28px;}
+.three{height:400px; background:url(../images/u=1089917010,1702880865&fm=21&gp=0.jpg) no-repeat center top/cover; background-attachment:fixed; margin-top: 200px; }
+.four{width:100%; text-align: center;}
+.four span{height: 100px;}
+.four ul {text-align: center; padding-bottom:100px;}
+.four ul li{display:inline-block;}
+.four ul .one a{border: 1px solid #e79d27; color:#FF9C00;}
+.four ul li a{color:#000000; padding: 0 43px 0 43px;display: inline-block; line-height: 42px;background-color: #FFFFFF;}
+.four ul li a:hover{ border: 1px solid #e79d27; background-color: #FFFFFF;}
+.four .pic-b{text-align: center; width: 1620px; margin: 0 auto;}
+
+.four .pic-f{width:500px; height: 300px; float: left; margin: 0 20px 40px;}
+.four .pic-f img{width: 500px; height:300px; }
+.four .text{width: 160px; height: 44px; border: 2px solid #000000; margin-bottom: 90px;text-align: center; margin: 0 auto; margin-bottom: 40px;}
+.four .text a{font-size: 12px; line-height: 44px; display: block; color: #000000;}
+.five{width: 100%; height: 414px; background-color: #f2f3f8;}
+.five .fa-paper-plane{font-size: 100px; color: #dfdfdf; padding-top: 98px;}
+.five p{padding-top: 10px;}
+.five p span{color: #FF560A; margin-top: 209px;}
+.six{width: 100%; height: 334px;}
+.six .pic-i{ height: 500px; margin:0 auto;}
+.six .pic-i .lfit{width: 48%; height: 500px;background-color:#f4f4f4; float: left;margin: 0 1% 0 1%; font-size:80px; font-weight: bold;line-height: 500px;}
+.six .pic-i .rift{width: 48%; height: 300px;background-color:#f4f4f4; float: left;margin: 0 1% 0 1%;  padding-top: 200px;}
+.six .pic-i .rift .fa-sign-language{font-size: 60px;}
+.six .pic-i .rift  p{font-size: 60px;}
+.seven{height: 338px;margin-top: 90px; background-image: url(../images/bg_15.jpg);}
+.seven h1{ color: aliceblue; padding-top: 103px;}
+.seven p{ color: aliceblue; padding-bottom: 0;}
+.seven a{width: 110px; height: 44px; background-color: #f0b452;display: inline-block; margin-top: 30px;line-height: 44px; color: aliceblue;}
+.eight-box{height: 438px;background-color: #f2f3f8; width:100%; text-align: center; }
+.eight{width: 1500px; margin: 0 auto;}
+.eight .one{width: 305px; float: left;padding-top: 70px; text-align: left; margin-left: 60px;}
+.eight .one p{font-size: 17px;line-height: 24px; padding-top: 25px;}
+.eight .one .icon i{margin-right: 15px; color: #e0a240;}
+.eight .e-two{width: 305px; float: left;padding-top: 70px; text-align: left; margin-left: 60px;}
+.eight .e-two h4{padding-bottom: 34px;}
+.eight .tu-t p{display: inline-block; width: 150px; padding-left: 10px; line-height: 20px;}
+.eight .pa{padding-top: 20px;}
+.eight .thre{width: 305px; float: left;padding-top: 70px; text-align: left; margin-left: 60px; line-height:27px;}
+.eight .thre ul li{list-style-image: url(../images/jp_22.jpg); list-style-position: inherit;padding-top: 10px;}
+.eight .thre ul li:hover{list-style-image:url(../images/jp_19.jpg);}
+.eight .thre ul li a{color: #818383;}
+.eight .for{width: 305px; float: left;padding-top: 70px; text-align: left; margin-left: 60px; line-height:27px;}
+.eight .for ul {padding-top: 27px;}
+.eight .for ul li{float: left; margin: 0 15px 15px; 0;}
+footer{height: 70px;text-align: center;}
+footer p{line-height: 70px; color: #959595;}

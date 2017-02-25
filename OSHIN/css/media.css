@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:1279px) and (min-width: 960px){
+	header .top nav {display: none;}
+	.two{ max-width: 940px; margin: 0 auto; }
+	.two .text-left {width: 30%;}
+	.two .pic{width: 30%;}
+	.two .text-fle{ width: 30%;}
+}
