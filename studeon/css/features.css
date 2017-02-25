@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{width:1140px;margin:0 auto;margin-top:30px;height:1050px;}
+.main h2{text-align:center;font-size:27px;height:106px;line-height:106px;padding-top:16px;}
+.menu{width:1140px;height:300px;}
+.menu .evn{background-image:url(../images/ser-bg.png);width:360px;height:128px;float:left;margin:0 20px 20px 0;}
+.menu .evn .logo{float:left;width:67px;height:123px;background-color:#ed5844;background-repeat:no-repeat;background-position:18px 43px;background-image:url(../images/s-icons.png);}
+.menu .evn .two{background-position:-66px 43px;}
+.menu .evn .three{background-position:-145px 43px;}
+.menu .evn .four{background-position:22px -75px;}
+.menu .evn .five{background-position:-66px -69px;}
+.menu .evn .six{background-position:-143px -69px;}
+.menu .evn .text{float:left;width:287px;height:123px;}
+.menu .evn .text h3{font-size:16px;line-height:46px;height:46px;padding-left:23px;color:#595355;}
+.menu .evn .text p{font-size:14px;line-height:13px;padding-left:23px;color:#9f9f9f;}
+
+.main .circle{width:1140px;margin:0 auto;}
+.main .title{line-height:86px;height:86px;margin:0;padding:0;}
+.main .circle .ice{width:380px;height:188px;float:left;text-align:center;}
+.main .circle .ice .icon{width:100px;height:100px;margin:0 auto;background:url(../images/img-sprite.png) no-repeat;}
+.main .ice h3{height:42px;line-height:42px;font-size:16px;color:#333;margin:0 auto;}
+.main .ice p{font-size:13px;color:#333;line-height:23px;width:320px;margin:0 auto;}
+.main .ice .pic img{width:352px;}
+.main .ice .pic{width:352px;height:207px;margin:0 auto;}
+.main .circle .bot{padding-top:47px;}
+.main .circle .ice .b{background-position:-100px 0;}
+.main .circle .ice .c{background-position:-200px 0;}
+.main .circle .ice .d{background-position:-300px 0;}
+.main .circle .ice .e{background-position:-400px 0;}

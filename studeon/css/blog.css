@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:1140px;margin:0 auto;height:1970px;}
+.main .content{width:840px;margin-right:30px;float:left;}
+.main .content .top{padding-left:14px;}
+.main .content .top h2{font-size:20px;height:20px;line-height:20px;padding-top:40px;color:#000;}
+.main .content .top p{line-height:45px;height:45px;color:#9c9c9c;font-size:12px;}
+.main .content .top span{color:red;}
+.main .content .top img{border:6px red solid;width:813px;height:415px;}
+.main .content .top .pic{position:relative;}
+.main .content .top h3{font-size:16px;height:38px;line-height:38px;color:#9c9c9c;}
+.main .content .top h3 span{padding-right:9px;}
+.main .content .top .message1{line-height:24px;padding:0 8px 0 0;height:118px;}
+.main .content .top .message2{line-height:24px;padding:0 8px 0 0;height:118px;margin-bottom:20px;}
+.main .content .top .double{height:43px;width:88px;position:absolute;right:0px;bottom:0px;}
+.main .content .top .pen{width:43px;height:43px;background-color:#fff;float:left;margin-right:3px;background-image:url(../images/s-icons.png);background-repeat:no-repeat;background-position:-239px -167px;}
+.main .content .top .data{width:41px;height:41px;background-color:#fff;float:left;margin-top:2px;background:url(../images/s-icons.png) no-repeat -289px -122px;}
+
+.main .content .mid h2{font-size:30px;line-height:47px;height:47px;padding-left:15px;}
+.main .content .mid form{padding-left:20px;}
+.main .content .mid .tex{width:808px;height:36px;background-color:#eee;margin:6px 0;border-radius:4px;margin-bottom:14px;color:#9c9c9c;}
+.main .content .mid .textarea{width:808px;height:150px;background-color:#eee;margin:6px 0;border-radius:4px;border-color:#eee;}
+.main .content .mid .sub{width:145px;height:50px;background-color:red;color:#fff;font-size:18px;border-radius:4px;box-shadow:0 0 6px rgba(0,0,0,0.5) inset;line-height:50px;height:50px;margin-bottom:34px;}
+
+.main .content .bot{padding-left:15px;margin-bottom:40px;}
+.main .content .bot h2{font-size:30px;line-height:47px;height:47px;}
+.main .content .bot .introduce{width:823px;height:200px;border:1px #9c9c9c solid;}
+.main .content .bot img{width:156px;height:159px;float:left;padding:16px;}
+.main .content .bot .text{width:590px;height:159px;float:left;padding-left:37px;}
+.main .content .bot h3{font-size:16px;height:19px;line-height:19px;padding-top:16px;}
+.main .content .bot p{font-size:12px;line-height:20px;color:#9c9c9c;margin-bottom:15px;}
+.main .content .data p{line-height:50px;height:50px;width:160px;float:left;}
+.main .content .data .btn{line-height:50px;height:50px;background-color:red;float:left;width:99px;text-align:center;border-radius:4px;color:#fff;margin-left:250px;box-shadow:0 0 6px rgba(0,0,0,0.5) inset;}
+
+
+
+.main .cltalog{width:266px;float:left;}
+.main .cltalog h2{font-size:20px;height:20px;line-height:20px;padding-top:40px;color:#000;margin-bottom:22px;}
+.main .cltalog .sea{width:216px;height:42px;border:1px #CCCCCC solid;color:#9c9c9c;padding:0 18px;position:relative;}
+.main .cltalog .btn img{position:absolute;right:137px;top:179px;width:26px;height:26px;}
+.main .cltalog .btn{margin-bottom:16px;}
+
+.main .cltalog  li{padding-left:26px;font-size:14px;height:23px;line-height:23px;background-image:url(../images/b_arrow.png);background-repeat:no-repeat;background-position:7px center;}
+.main .cltalog .cat a{color:#9c9c9c;}
+
+.main .cltalog img{width:114px;height:73px;}
+
+
+
+
+
+
+

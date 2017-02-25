@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:1140px;margin:0 auto;text-align:center;height:800px;}
+.main h2{font-size:30px;line-height:50px;padding-top:80px;}
+.main ul{display:inline-block;}
+.main li{float:left;padding:0 18px;height:65px;line-height:65px;}
+.main a{color:#222220;}
+.main .active{color:#eb2d0b;}
+.main a:hover{color:#eb2d0b;}
+
+.main .pic{width:285px;height:182px;float:left;position:relative;}
+.main img{width:100%;height:100%;}
+.main .pic a{width:100%;height:100%;background:rgba(0,0,0,0.5);line-height:182px;color:#0985D4;display:none;position:absolute;top:0;left:0;}
+.main .pic:hover a{display:block;}
