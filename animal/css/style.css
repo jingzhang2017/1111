@@ -1,0 +1,18 @@
+/*设置字体图标*/
+
+#tour-view .slide-icon{
+    font-size: 20em;
+    color:teal;
+}
+
+/*设置slider全屏*/
+#tour-view .slider{
+    height: 100%;
+}
+
+/*设置每个幻灯也内容居中*/
+#tour-view .slider-slide{
+    text-align: center;
+}
+/*#btn01{width: 80px;height: 30px;position: absolute;top:0;bottom:0;left:0;margin:auto}*/
+#btn01{width: 80px;height: 30px;position: absolute;left:50%;top:80%;transform: translate(-50%,-50%);}

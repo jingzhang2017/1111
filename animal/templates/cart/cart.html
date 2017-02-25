@@ -1,0 +1,32 @@
+<ion-view view-title="我的购物车">
+    <ion-content class="energized-bg">
+        <div class="row">
+            <div class="col">名称</div>
+            <div class="col">数量</div>
+            <div class="col">单价</div>
+            <div class="col">小计</div>
+            <div class="col">操作</div>
+        </div>
+        <div class="row row-center" ng-repeat="item in cart">
+            <div class="col">{{item.product.title}}</div>
+            <div class="col">{{item.number}}</div>
+            <div class="col">{{item.product.price | currency:"￥"}}</div>
+            <div class="col">{{item.product.price * item.number | currency:"￥"}}</div>
+            <div class="col">
+                <button class="button button-icon" ng-click="remove(item.product.title)">删除
+                    <!--{{item.product.title}},{{item.number}}-->
+
+                    <!--<i class="icon ion-ios-close-empty"></i>-->
+                </button>
+
+            </div>
+        </div>
+        <!--<button class="button item-button-right" ng-click="clear()">清空</button>-->
+        <hr/>
+        <div class="row row-center">
+            <div class="col"></div>
+            <div class="col">总计:{{money() | currency:"￥"}}</div>
+            <button class="button item-button-right" ng-click="clear()">清空</button>
+        </div>
+    </ion-content>
+</ion-view>
