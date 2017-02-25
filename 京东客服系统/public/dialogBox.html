@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(function(){
+            $(".btn").on("click",function(e){
+                var text=$(this).prev().val();
+                var cls="";
+                var src="images/head01.jpg";
+                if(e.target.id=="lh-msg"){
+                    cls="lh";
+                    src="images/head02.jpg";
+                };
+                var html='<li class="'+cls+'">'+
+                         '<img src="'+src+'" class="img-circle">'+
+                         '<p>'+text+'</p>'+
+                         '</li>';
+                $("ul").append(html);
+                $(".box").scrollTop($(".box").prop("scrollHeight"));
+                $(".text").val("");
+                $(this).attr("disabled",true);
+            });
+            $(".text").on("keyup",function(ev){
+                var text=$(this).val();
+                if(text!=""){
+                    $(this).next().attr("disabled",false);
+                    if(ev.keyCode==13){
+                        $(this).next().trigger("click");
+                    };                };
+            });
+        });
+    </script>
+    <style>
+        .box{list-style:none;display:inline-block;margin-top:10px;width:450px;height:300px;border:1px solid skyblue;border-radius:6px;padding:10px;overflow:auto;text-align:left;}
+        .text{width:300px;height:28px;border:1px solid deepskyblue;border-radius:3px;padding:0 5px;line-height:28px;}
+        img{width:40px;height:40px;}
+        .panel-body{text-align:center;}
+        .content{width:500px;background:#eee;}
+
+        li{margin-bottom:30px;margin-left:60px;}
+        li img{float:left;margin-left:-60px;}
+        li p{background:#fff;border-radius:5px;padding:10px;}
+        .lh{margin-left:auto;margin-right:60px;}
+        .lh img{float:right;margin-right:-60px;}
+        .lh p{background:#4cae4c;}
+    </style>
+</head>
+<body class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">微信对话框</div>
+        <div class="panel-body">
+            <div class="content col-md-offset-3">
+                <ul class="box">
+                <!--
+                <li>
+                    <img src="images/lss.jpg" class="img-circle">
+                    <p>aaaaa</p>
+                </li>
+                <li class="lh">
+                    <img src="images/lh.jpg" class="img-circle">
+                    <p>bbb</p>
+                </li>
+                -->
+                </ul>
+                <br>
+                <img src="images/head01.jpg" class="img-circle">
+                <input type="text" class="text" >
+                <button type="button" class="btn btn-primary" disabled>发送</button>
+                <br><br>
+                <img src="images/head02.jpg" class="img-circle">
+                <input type="text" class="text" >
+                <button type="button" id="lh-msg" class="btn btn-primary" disabled>发送</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
